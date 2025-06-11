@@ -1,0 +1,20 @@
+{
+    "name": "khalil/generate-picturejpg",
+    "description": "Генератор jpg картинки и галерея изображений",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Khalil",
+            "email": "mrmafy.mail@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+      "ext-gd": "*"
+    }
+}
